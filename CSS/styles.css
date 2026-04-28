@@ -25,16 +25,28 @@
         color: #ffb400;
     }
 
-    header {
+    /* header {
         background: #1e3d59;
         color: #fff;
         padding: 50px 20px;
         text-align: center;
-    }
+    } */
+    
+    header {
+    background-image: url("../img/outiltheque.jpg"); /* adapte le chemin */
+    background-size: cover;
+    background-position: bottom; /* affiche la partie basse de l'image */
+    background-repeat: no-repeat;
+    padding: 80px 20px; /* espace pour le texte */
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    text-align: center;
+}
 
     h1 {
         margin: 0;
-        font-size: 2.4rem;
+        font-size: 3.4rem;
     }
 
     main {
