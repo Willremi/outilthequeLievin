@@ -26,6 +26,23 @@
         <p>Salle Hubert / Repair Café - 35 rue Chanzy 62800 Liévin</p>
     </header>
 
+    <div class="category-selector">
+    <button id="categoryBtn">
+        <i class="fa-solid fa-list"></i> Catégories d’outils
+    </button>
+
+    <div id="categoryMenu" class="category-menu">
+        <a href="#detecteurs">Détecteurs & Mesures</a>
+        <a href="#electro">Électroportatifs</a>
+        <a href="#jardin">Jardinage</a>
+        <a href="#nettoyage">Nettoyage</a>
+        <a href="#manuel">Outillage manuel</a>
+        <a href="#tapissier">Tapissier</a>
+        <a href="#atelier">Atelier</a>
+    </div>
+</div>
+
+
     <main>
 
         <!-- FONCTIONNEMENT -->
@@ -42,7 +59,7 @@
 
         <div class="grid">
 
-            <div class="card">
+            <div class="card" id="detecteurs">
                 <h3><i class="fa-solid fa-magnifying-glass"></i> Détecteurs & Mesures</h3>
                 <ul>
                     <li>Caméra d'inspection</li>
@@ -53,7 +70,7 @@
                 </ul>
             </div>
 
-            <div class="card">
+            <div class="card" id="electro">
                 <h3><i class="fa-solid fa-bolt"></i> Électroportatifs</h3>
                 <ul>
                     <li>Agrafeuse cloueuse</li>
@@ -69,7 +86,7 @@
                 </ul>
             </div>
 
-            <div class="card">
+            <div class="card" id="jardin">
                 <h3><i class="fa-solid fa-leaf"></i> Jardinage</h3>
                 <ul>
                     <li>Aspirateur souffleur</li>
@@ -82,7 +99,7 @@
                 </ul>
             </div>
 
-            <div class="card">
+            <div class="card" id="nettoyage">
                 <h3><i class="fa-solid fa-spray-can-sparkles"></i> Nettoyage</h3>
                 <ul>
                     <li>Aspirateur chantier</li>
@@ -92,7 +109,7 @@
                 </ul>
             </div>
 
-            <div class="card">
+            <div class="card" id="manuel">
                 <h3><i class="fa-solid fa-hammer"></i> Outillage manuel</h3>
                 <ul>
                     <li>Coupe-boulon</li>
@@ -103,7 +120,7 @@
                 </ul>
             </div>
 
-            <div class="card">
+            <div class="card" id="tapissier">
                 <h3><i class="fa-solid fa-brush"></i> Tapissier</h3>
                 <ul>
                     <li>Décolleuse papier peint</li>
@@ -112,7 +129,7 @@
                 </ul>
             </div>
 
-            <div class="card">
+            <div class="card" id="atelier">
                 <h3><i class="fa-solid fa-warehouse"></i> Atelier</h3>
                 <ul>
                     <li>Établi</li>
@@ -157,7 +174,7 @@
     <footer>
         L'Outilthèque municipale – En paternariat avec Repair Café Liévin et Leroy Merlin
     </footer>
-
+    <script src="JS/script.js"></script>
 </body>
 
 </html>
