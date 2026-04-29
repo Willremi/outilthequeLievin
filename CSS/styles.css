@@ -81,9 +81,13 @@
     .card h3 {
         margin-top: 0;
         color: #1e3d59;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         border-bottom: 2px solid #eee;
         padding-bottom: 6px;
+    }
+
+    .card p, li {
+        font-size: 18px;
     }
 
     ul {
@@ -104,6 +108,7 @@
         border-radius: 12px;
         box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
         text-align: center;
+        font-size: 16px;
     }
 
     .condition-box i {
