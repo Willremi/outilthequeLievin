@@ -8,6 +8,9 @@
 
     <!-- Icônes Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
@@ -24,23 +27,29 @@
         <h1><i class="fa-solid fa-toolbox"></i> L'Outilthèque</h1>
         <p>Chaque vendredi de 14h à 17h</p>
         <p>Salle Hubert / Repair Café - 35 rue Chanzy 62800 Liévin</p>
+        <div class="partenaires">
+            <p class="partenaires-titre">En partenariat avec</p>
+            <img src="img/Repair.jpg" alt="Logo Repair Café" class="logo-partenaire">
+            <img src="img/Leroy-Merlin.png" alt="Logo Leroy Merlin" class="logo-partenaire" id="leroy">
+        </div>
+
     </header>
 
     <div class="category-selector">
-    <button id="categoryBtn">
-        <i class="fa-solid fa-list"></i> Catégories d’outils
-    </button>
+        <button id="categoryBtn">
+            <i class="fa-solid fa-list"></i> Catégories d’outils
+        </button>
 
-    <div id="categoryMenu" class="category-menu">
-        <a href="#detecteurs">Détecteurs & Mesures</a>
-        <a href="#electro">Électroportatifs</a>
-        <a href="#jardin">Jardinage</a>
-        <a href="#nettoyage">Nettoyage</a>
-        <a href="#manuel">Outillage manuel</a>
-        <a href="#tapissier">Tapissier</a>
-        <a href="#atelier">Atelier</a>
+        <div id="categoryMenu" class="category-menu">
+            <a href="#detecteurs">Détecteurs & Mesures</a>
+            <a href="#electro">Électroportatifs</a>
+            <a href="#jardin">Jardinage</a>
+            <a href="#nettoyage">Nettoyage</a>
+            <a href="#manuel">Outillage manuel</a>
+            <a href="#tapissier">Tapissier</a>
+            <a href="#atelier">Atelier</a>
+        </div>
     </div>
-</div>
 
 
     <main>
@@ -48,7 +57,8 @@
         <!-- FONCTIONNEMENT -->
         <h2 id="fonctionnement" class="section-title">Fonctionnement</h2>
         <div class="card">
-            <p>Depuis le 30 septembre 2022, une outilthèque est mise à disposition des habitants. Si vous êtes un particulier, vous pouvez venir <strong>emprunter le ou les outil(s) dont vous avez besoin.</strong></p>
+            <p>Depuis le 30 septembre 2022, une outilthèque est mise à disposition des habitants. Si vous êtes un
+                particulier, vous pouvez venir <strong>emprunter le ou les outil(s) dont vous avez besoin.</strong></p>
             <p><strong>Horaires :</strong> Vendredi 14h00 → 17h00</p>
             <p><strong>Lieu :</strong> Salle HUBERT, 35 rue Chanzy 62800 Liévin</p>
             <p><strong>Conditions :</strong> Jusqu’à 3 outils pour 1 semaine (hors consommables).</p>
@@ -172,7 +182,7 @@
     </main>
 
     <footer>
-        L'Outilthèque municipale – En paternariat avec Repair Café Liévin et Leroy Merlin
+        L'Outilthèque – En paternariat avec Repair Café Liévin et Leroy Merlin
     </footer>
     <script src="JS/script.js"></script>
 </body>

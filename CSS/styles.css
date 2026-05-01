@@ -49,8 +49,42 @@
 
     h1 {
         margin: 0;
-        font-size: 3.4rem;
+        font-size: 120px;
+        font-family: "Cookie", cursive;
     }
+
+    .partenaires {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .partenaires-titre {
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: white;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+        margin-bottom: 20px;
+    }
+
+    .partenaires-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .logo-partenaire {
+        height: 60px;
+        /* même hauteur pour les deux logos */
+        width: auto;
+        object-fit: contain;
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+    }
+
+    #leroy {
+        background-color: #eee;
+    }
+
 
     .category-selector {
         position: relative;
